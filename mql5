@@ -1,0 +1,55 @@
+
+// Program: Reward Multiplier MT4
+// Developer's site: forexroboteasy.com
+// Developer: Forex Robot Easy Team
+
+// This code is a semi-automatic trade manager utilizing pyramid trading principles.
+// It focuses on maximizing Forex profits while minimizing risk.
+
+// Semi-Automatic Trade Management
+void OpenAdditionalOrders(double runningTradeProfits) {
+    // Function to open additional orders using running trade profits
+    // Implement pyramid trading principles here
+}
+
+// Potential Profit/Loss Display
+void DisplayPotentialProfitLoss() {
+    // Function to display potential profit/loss before placing the first trade
+    // Calculate and show the reward to risk ratio for each trade
+}
+
+// Risk Management
+void RiskManagementStrategy() {
+    // Function to provide a clear and calculated risk management strategy
+    // Prioritize minimizing risk while maximizing returns
+}
+
+// Maximize Forex Profits
+void MaximizeForexProfits() {
+    // Function to open a new trade using the profit from the existing trade
+    // Once a trade enters the profit zone, call this function
+}
+
+// Main function
+int OnInit() {
+    DisplayPotentialProfitLoss(); // Display potential profit/loss and reward to risk ratio
+    RiskManagementStrategy(); // Implement risk management strategy
+
+    // Simulate a trade entering the profit zone
+    double existingTradeProfit = 500.0;
+    if (existingTradeProfit > 0) {
+        MaximizeForexProfits(); // Open new trade using profit from existing trade
+    }
+
+    return(INIT_SUCCEEDED);
+}
+
+void OnTick() {
+    // Function to handle tick events
+    // Implement your trading logic here
+}
+
+void OnDeinit(const int reason) {
+    // Function to handle program deinitialization
+    // Perform any necessary cleanup actions here
+}
